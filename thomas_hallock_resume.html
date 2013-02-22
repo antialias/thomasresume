@@ -96,7 +96,28 @@ display:block;
 padding:0px;
 margin-top:1em;
 }
-
+.skills-list-header {
+    font-weight: bold;
+}
+.skills-list-header ul {
+    display: inline;
+    font-weight: normal;
+}
+.skills-list-header ul li:after {
+    content: ", ";
+}
+.skills-list-header ul li:last-child:before {
+    content: "and ";
+}
+.skills-list-header ul li:last-child:after {
+    content: ".";
+}
+.skills-list-header ul li {
+    display: inline;
+    margin-left:0;
+    margin-right:0;
+    list-style-type: none;
+}
 </style>
 </head>
 <body>
@@ -127,11 +148,63 @@ New York, NY 10036</a></span>
 -->
 <h2>Skills</h2>
 <div class = 'section_body'>
-<b>languages</b>: JavaScript, PHP, Groovy, SQL, Python, C++, Haskell, and bash<br /> 
-<b>APIs & frameworks</b>: ExtJs, Grails, jQuery, node.js, Facebook, Doctrine, CodeIgniter, <a href='http://roubini.com/strategy'>jQuery UI</a>, eBay, PayPal<br />
-<b>configurations</b>: <a href='http://haproxy.1wt.eu/'>HAProxy</a>, <a href='http://roubini.com/'>LAMP</a> (Linux, Apache, MySQL, and PHP), <a href='http://www.roubini.com/quickthoughts'>CouchDB</a>, <a href='https://github.com/antialias'>git</a>, Subversion, <a href = 'https://dev.thesellery.com/trac/newticket'>TRAC</a>, JIRA, <a href = 'http://support.thesellery.com/'>Kayako SupportSuite</a>, <a href = 'http://economonitor.com/'>Wordpress</a>, and <a href = 'http://thesellery.com/'>Drupal</a>. 
-<br />
-<b>techniques</b>: MVC, OOP, SEO, <a href = 'http://thomashallock.com/blog/?p=368'>AJAX</a>, source control, <a href = 'http://podcast.thesellery.com/'>podcasting</a>, and <a href = 'http://thomashallock.com/blog/?p=115'>C++ template metaprogramming</a>
+<div class='skills-list-header'>
+    Languages:
+    <ul class='skills-list'>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>SQL</li>
+        <li>Groovy</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>Haskell</li>
+        <li>Bash</li>
+    </ul>
+</div>
+<div class='skills-list-header'>
+    APIs &amp; frameworks:
+    <ul class='skills-list'>
+        <li>ExtJs</li>
+        <li>Knockout.js</li>
+        <li>Aloha Editor</li>
+        <li>Grails</li>
+        <li>jQuery and <a href='http://roubini.com/strategy'>jQuery UI</a></li>
+        <li>node.js</li>
+        <li>Facebook</li>
+        <li>CodeIgniter</li>
+        <li>eBay</li>
+        <li>PayPal</li>
+    </ul>
+</div>
+<div class='skills-list-header'>
+    Configurations:
+    <ul>
+        <li><a href='http://haproxy.1wt.eu/'>HAProxy</a></li>
+        <li><a href='http://roubini.com/'>LAMP (Linux, Apache, MySQL, and PHP)</a></li>
+        <li><a href='http://www.roubini.com/quickthoughts'>CouchDB</a></li>
+        <li><a href='https://github.com/antialias'>git</a></li>
+        <li>Subversion</li>
+        <li><a href = 'https://dev.thesellery.com/trac/newticket'>TRAC</a></li>
+        <li>JIRA</li>
+        <li><a href = 'http://support.thesellery.com/'>Kayako SupportSuite</a></li>
+        <li><a href = 'http://economonitor.com/'>Wordpress</a></li>
+        <li><a href = 'http://thesellery.com/'>Drupal</a></li>
+    </ul>
+</div>
+<div class='skills-list-header'>
+    Techniques:
+    <ul>
+        <li>MVVM</li>
+        <li>MVC</li>
+        <li>OOP</li>
+        <li>SEO</li>
+        <li><a href = 'http://thomashallock.com/blog/?p=368'>AJAX</a></li>
+        <li>source control</li>
+        <li><a href = 'http://podcast.thesellery.com/'>podcasting</a></li>
+        <li><a href = 'http://thomashallock.com/blog/?p=115'>C++ template metaprogramming</a></li>
+    </ul>
+</div>
 
 <!--<li>Attended Apple's Worldwide Developer's Conference on scholarship in 2002 and 2003.</li>-->
 </div>
