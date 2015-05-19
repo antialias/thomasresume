@@ -14,18 +14,8 @@
         "picture": "https://s3.amazonaws.com/f.cl.ly/items/0L1x2P3A353D0T1K3V1a/IMG_2203.jpg",
         "profiles": [
             {
-                "network": "Twitter",
-                "url": "http://twitter.com/antialias",
-                "username": "antialias"
-            },
-            {
                 "network": "Github",
                 "url": "https://github.com/antialias",
-                "username": "antialias"
-            },
-            {
-                "network": "Flickr",
-                "url": "https://www.flickr.com/photos/antialias",
                 "username": "antialias"
             },
             {
@@ -52,9 +42,9 @@
                 "Artificial Intelligence",
                 "Computer Graphics"
             ],
-            "endDate": "2004",
+            "startDate": "1999-08-01",
+            "endDate": "2004-05-01",
             "institution": "University of Texas at Austin",
-            "startDate": "1999",
             "studyType": "Bachelor of Science"
         }
     ],
@@ -154,7 +144,7 @@
         {
             "organization": "TEALS",
             "position": "Volunteer Teacher for AP Computer science",
-            "startDate": "2014-06",
+            "startDate": "2014-06-01",
             "summary": "Taught AP computer science at a New York City public high school.",
             "website": "http://tealsk12.org/"
         }
@@ -167,26 +157,27 @@
                 "Mentored front-end team on best practices for building behaviour-driven development-style unit tests",
                 "Organized front-end codebase into view-components self-build with all dependent assets"
             ],
-            "position": "Senior Front-end Engineer",
-            "startDate": "2014-Feb-15",
+            "position": "Sr. Front-end Engineer",
+            "startDate": "2014-02-15",
             "summary": "Technical front-end lead on a team with 4 front-end developers.",
             "website": "https://www.1stdibs.com"
         },
         {
             "company": "LearningPod, Inc. (The Washington Post Company)",
-            "endDate": "November 2013",
+            "endDate": "2013-11-01",
             "highlights": [
                 "Architected a set of front-end modules to create a rich user experience for educators, students, and developers.",
                 "Built a rich text editor for authoring math content for a new learning management system. Used <code>contenteditable</code> and MathJax on top of a Groovy + Grails stack.",
                 "Created a suite of automated front-end tests using WebDriver and the Grails functional test harness"
             ],
             "position": "Sr. Front End Developer",
-            "startDate": "October 2012",
+            "startDate": "2012-10-01",
             "website": "http://www.learningpod.com/"
         },
         {
             "company": "Roubini Global Economics",
-            "endDate": "2012",
+            "startDate": "2010-10-01",
+            "endDate": "2012-10-01",
             "highlights": [
                 "Wrote a forum system from scratch that remains in use at the company.",
                 "Created unit tests for each product brought into production.",
@@ -195,71 +186,71 @@
                 "Launched and maintained Economonitor.com using WordPress Multisite and a set of custom plug-ins.",
                 "Release manager for production code pushes. Used Trac, Subversion, and some custom scripts to tie everything together."
             ],
-            "position": "Senior Web Application Developer",
-            "startDate": "2010",
+            "position": "Sr. Web Application Developer",
             "website": "http://roubini.com/"
         },
         {
             "company": "The Sellery",
-            "endDate": "2011",
+            "endDate": "2011-06-01",
             "highlights": [
                 "Developed a web application in PHP to manage eBay sales, inventory, CRM, and invoicing for 400+ consignors.",
                 "Bootstrapped business from single person into a coordinated group of skilled and motivated workers."
             ],
             "position": "owner",
-            "startDate": "2004",
+            "startDate": "2004-01-01",
             "summary": "eBay consignment drop-off store",
             "website": "http://www.thesellery.com"
         },
         {
             "company": "Black Enterprise Magazine",
-            "endDate": "2010",
+            "endDate": "2010-02-01",
             "highlights": [
                 "Migrated physical infrastructure to cloud hosting to realize significant cost-savings.",
                 "Administered a WordPress Multisite instance with over 300,000 registered users",
-                "Developed WordPress plug-ins for new user sign-up, StreamSend sync, and <a href='http://wordpress.org/extend/plugins/pull-ap-feeds/'>consuming Associated Press feeds</a>."
+                "Developed WordPress plug-ins for new user sign-up, StreamSend sync, and consuming Associated Press feeds."
             ],
             "position": "Systems designer and programmer",
-            "startDate": "2009",
+            "startDate": "2009-08-01",
             "website": "http://www.blackenterprise.com/"
         },
         {
             "description": "Worked with multiple clients as a PHP consultant, project manager, and SEO advisor",
-            "endDate": "2010-ish",
-            "position": "Freelance PHP consultant and project manager",
-            "startDate": "2009"
+            "endDate": "2010-02-01",
+            "company": "Freelance",
+            "position": "PHP consultant and project manager",
+            "startDate": "2009-04-01"
         },
         {
             "company": "Trilogy Software - Versata - Online Automotive Group",
-            "endDate": "2009",
+            "endDate": "2009-04-01",
             "highlights": [
                 "Managed domain names for 6000+ OEM websites for all Ford, Jaguar, and Landrover dealerships in North America.",
                 "Configured and managed instances of Jira and Confluence products to manage requirements and support information."
             ],
             "position": "Support Manager / Technology Liaison",
-            "startDate": "2007",
+            "startDate": "2007-04-01",
             "website": "http://www.versata.com/"
         },
         {
             "company": "Medicus Insurance Company",
-            "endDate": "2008",
+            "endDate": "2008-03-01",
             "position": "Systems Administrator",
-            "startDate": "2007",
+            "startDate": "2007-03-01",
             "website": "http://www.medicusins.com/"
         },
         {
             "company": "Aspyr Media",
-            "endDate": "2003",
+            "startDate": "2001-06-01",
+            "endDate": "2003-02-01",
             "position": "Technical support and QA",
-            "startDate": "2001",
             "website": "http://www.aspyr.com/"
         },
         {
             "company": "UT Austin Physics Department",
             "description": "programmed answers to algebra questions using a hybrid C / LaTeX system",
-            "endDate": "2001",
+            "endDate": "2001-01-01",
             "position": "Programmer",
-            "startDate": "2000",
+            "startDate": "2000-01-01",
             "website": "http://www.ph.utexas.edu/"
         }
     ]
