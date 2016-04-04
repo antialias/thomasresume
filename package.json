@@ -1,0 +1,23 @@
+{
+  "name": "thomasresume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rasterize.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "phantomjs scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antialias/thomasresume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antialias/thomasresume/issues"
+  },
+  "homepage": "https://github.com/antialias/thomasresume#readme",
+  "dependencies": {
+    "phantomjs": "^2.1.3"
+  }
+}
