@@ -1,0 +1,115 @@
+body{
+	font-family:serif;
+	margin-left:0.5em;
+	margin-right:0.1em;
+	max-width:8.5in;
+	font-size:8.5pt;
+}
+.email-image {
+	height: 1.3em;
+}
+a {
+	color:#225;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#225;
+	text-decoration:underline;
+}
+
+hr {
+	clear:both;
+}
+
+h2, .section_body {
+	margin-bottom:1em;
+}
+.section_body {
+	margin-left:6em;
+}
+.section_body:last-child {
+    margin-bottom:0;
+}
+.section_body p {
+	margin-left:1em;
+}
+
+
+.position_name {
+	font-weight:bold;
+	margin-top:0.5em;
+	display:block;
+}
+.institution_name {
+	padding-left:0.5em;
+	font-style:italic;
+}
+.position_name .institution_name {
+	padding-left:0;
+}
+.activity_positions li {
+	list-style:none;
+	font-style:italic;
+}
+.reason-for-leaving {
+    font-style: italic;
+    margin-top:0.5em;
+    list-style-type:none;
+}
+h1 {
+	font-size:2em;
+}
+h2 {
+	font-variant: small-caps;
+	float:left;
+	clear:both;
+}
+.date_range {
+	float:right;
+	font-weight:bold;
+}
+
+li {
+	list-style:disc;
+	margin-left:2em;
+}
+li li {
+	list-style:none;
+}
+.contact_info {
+	float:right;
+	padding-left:1em;
+}
+
+.brag {
+	font-size:8pt;
+	text-align:center;
+	width:100%;
+	display:block;
+	padding:0px;
+	margin-top:1em;
+}
+.skills-list-header {
+    font-weight: bold;
+	margin-bottom: 0.3em;
+}
+.skills-list-header ul {
+    display: inline;
+    font-weight: normal;
+}
+.skills-list-header ul li:after {
+    content: ", ";
+}
+.skills-list-header ul li:last-child:before {
+    content: "and ";
+}
+.skills-list-header ul li:last-child:after {
+    content: ".";
+}
+.skills-list-header ul li {
+    display: inline;
+    margin-left:0;
+    margin-right:0;
+    list-style-type: none;
+}
