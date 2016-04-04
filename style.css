@@ -3,7 +3,7 @@ body{
 	margin-left:0.5em;
 	margin-right:0.1em;
 	max-width:8.5in;
-	font-size:8.5pt;
+	font-size:7pt;
 }
 .email-image {
 	height: 1.3em;
@@ -94,20 +94,22 @@ li li {
     font-weight: bold;
 	margin-bottom: 0.3em;
 }
-.skills-list-header ul {
-    display: inline;
+ul {
     font-weight: normal;
 }
-.skills-list-header ul li:after {
+ul.inline-list {
+    display: inline;
+}
+ul.inline-list li:after {
     content: ", ";
 }
-.skills-list-header ul li:last-child:before {
+ul.inline-list li:last-child:before {
     content: "and ";
 }
-.skills-list-header ul li:last-child:after {
+ul.inline-list li:last-child:after {
     content: ".";
 }
-.skills-list-header ul li {
+ul.inline-list li {
     display: inline;
     margin-left:0;
     margin-right:0;
