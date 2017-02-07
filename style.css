@@ -98,7 +98,7 @@ ul {
     font-weight: normal;
 }
 ul.inline-list {
-    display: inline;
+    margin-left: 2em;
 }
 ul.inline-list li:after {
     content: ", ";
