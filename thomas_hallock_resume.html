@@ -6,14 +6,23 @@
     <link rel="stylesheet" type="text/css" href="style.css"></link>
 </head>
 <body>
-<span class = 'contact_info'>
-    <a href = 'callto:+15127756652'>512.775.6652</a><br />
-    <img class='email-image' src='email-address.png' />
-</span>
-<span class = 'contact_info'>
-    <a href = 'http://thomashallock.com'>thomashallock.com</a><br />
-    <a href = 'https://github.com/antialias'>github.com/antialias</a>
-</span>
+   <div class='top-bar'>
+      <span>
+          Seattle, WA
+      </span>
+      <span>
+          <img class='email-image' src='email-address.png' />
+      </span>
+      <span>
+          <a href = 'callto:+15127756652'>512.775.6652</a><br />
+      </span>
+      <span>
+          <a href = 'https://github.com/antialias'>github.com/antialias</a>
+      </span>
+      <span>
+          <a href = 'http://thomashallock.com'>thomashallock.com</a><br />
+      </span>
+   </div>
 
 <h1>Thomas&nbsp;R.&nbsp;Hallock</h1>
 <hr />
@@ -23,13 +32,14 @@
 </div>
 <h2>Recently</h2>
 <div class='section_body'>
-<div style='display: -webkit-flex'>
+<div class='recently'>
     <div> <!-- flex item -->
         <div class='skills-list-header'>
             I have contributed to open source projects, including:
             <ul>
                 <li><a href='https://github.com/npm/npm/commits?author=antialias'>NPM</a></li>
-                <li><a href='https://github.com/alohaeditor/Aloha-Editor/commit/e1a2a8b'>Aloha</a> <a href='https://github.com/alohaeditor/Aloha-Editor/commit/7d6a647'>Editor</a></li>
+                <li>Jest</li>
+                <li>react-toolbox</li>
                 <li><a href='https://github.com/green-mesa/backbone-collection/commits?author=antialias'>backbone-collection</a></li>
             </ul>
         </div>
@@ -62,9 +72,11 @@
         <div class='skills-list-header'>
             I've used these APIs and frameworks:
             <ul class='skills-list inline-list'>
-                <li><a href='http://www.learningpod.com/'>Grails</a></li>
                 <li>Express</li>
                 <li>React</li>
+                <li>JSS</li>
+                <li>Relay</li>
+                <li><a href='http://www.learningpod.com/'>Grails</a></li>
                 <li>Backbone</li>
                 <li>Underscore</li>
                 <li>ExtJs</li>
@@ -78,11 +90,10 @@
         My Preferred languages, tools, and frameworks:
             <ul>
                 <li>Source control: git</li>
-                <li>Dependency management: npm</li>
-                <li>Bundling: Webpack</li>
-                <li>Testing: Mocha</li>
+                <li>Dependency management: yarn</li>
+                <li>Bundling: Webpack for apps, rollup.js for packages</li>
+                <li>Testing: Mocha or Jest, depending on the project</li>
                 <li>Client-side: React + Redux + Relay + GraphQL</li>
-                <li>Shell: Zsh</li>
             </ul>
         </div>
     </div>
@@ -98,9 +109,16 @@
 </div>
 <h2>Experience</h2>
 <div class = 'section_body'>
-
-    <span class = 'position_name'>Mixpanel<span class = 'date_range'>2017</span></span>
-    <span class = 'institution_name'><a href = 'http://mixpanel.com/'>mixpanel.com</a></span>
+    <span class = 'position_name'>Sr. Software Engineer<span class = 'date_range'>2017 - present</span></span>
+    Providence Health and Services Digital Innovation Group <span class = 'institution_name'><a href = 'https://providence-digitalinnovation.jobs/'>providence-digitalinnovation.jobs</a></span> /<span class = 'institution_name'><a href = 'http://odhp.provinnovate.com/'>odhp.provinnovate.com</a></span>
+    <ul>
+        <li>Designed and implemented a web application for patients to upload and OCR pictures of their insurance card as they schedule an appointment with low-acuity clinics.</li>
+        <li>Sr. Engineer on a 5 person team that built a universal React application for scheduling low-acuity appointments at clinics, as well as online virtual visits with NPs.</li>
+        <li>Championed the case for feature-flag-based slow roll-outs to management, and implemented a redux adapter for using feature flags in React-redux applications. All new features at Providence are now rolled out using this system.</li>
+        <li>Implemented an i18n strategy for React applications that has been adopted across the organization.</li>
+        <li>Introduced package-based development as a way for multiple teams to leverage each other's work.</li>
+        <li>Triaged any production-level issues that affected patients, as a member of a rotating on-call team.</li>
+    </ul>
 
     <span class = 'position_name'>Sr. Front End Developer<span class = 'date_range'>2014 - 2016</span></span>
     <span class = 'institution_name'><a href = 'http://1stdibs.com/'>1stdibs.com</a></span>
@@ -151,23 +169,13 @@
 <ul class = 'activity_positions'>
     <li>Taught AP computer science in Java at a New York City public high school.</li>
 </ul>
-<span class = 'position_name'><a href = 'http://www.texascycling.org/'>University of Texas Cycling Sports Club</a></span>
+<span class = 'position_name'><a href = 'http://www.texascycling.org/'>University of Texas Cycling Sports Club</a> Webmaster, Nationals Team Leader, and Track Team President</span>
 <span class = 'date_range'>2001 - 2003</span>
-<ul class = 'activity_positions'>
-    <li>Webmaster, Nationals Team Leader, and Track Team President</li>
-</ul>
-
-<span class = 'position_name'>Cycling and Charity events</span>
-<ul class = 'activity_positions'>
-	<li><span class = 'date_range'>1998</span>GTE Big Ride Across America; Seattle, WA to Washington, D.C.</li>
-	<li><span class = 'date_range'>1996 - 2002</span>Annual MS-150 Bicycle Ride from Houston, TX to Austin, TX</li>
-</ul>
 
 <span class = 'position_name'>Just for fun</span>
 <ul class = 'activity_positions'>
-    <li><span class = 'date_range'>2016</span>Hang Gliding: BHPA rated club pilot</li>
-    <li><span class = 'date_range'>2003 - 2006</span><a href = 'http://thomashallock.com/blog/?cat=4'>Semi-professional Category 1 Road Bicycle Racer</a></li>
-    <li>Windsurfing, Men's Roller Derby, Hiking, Snow Skiing
+    <li><span class = 'date_range'>2003 - 2006</span></li>
+    <li><a href = 'http://thomashallock.com/blog/?cat=4'>Retired Cat 1 Road Racer</a>, Sailing, Hang Gliding, Hiking, Snow Skiing
 </ul>
 
 </div><!--
