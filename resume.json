@@ -1,257 +1,411 @@
 {
-    "basics": {
-        "email": "hallock+resume@gmail.com",
-        "label": "Front-end Engineer",
-        "location": {
-            "address": "310 W. 47th Street Apt 6C",
-            "city": "New York City",
-            "countryCode": "US",
-            "postalCode": "NY 10036",
-            "region": "New York"
-        },
-        "name": "Thomas Hallock",
-        "phone": "(646) 807-9747",
-        "picture": "https://s3.amazonaws.com/f.cl.ly/items/0L1x2P3A353D0T1K3V1a/IMG_2203.jpg",
-        "profiles": [
-            {
-                "network": "Github",
-                "url": "https://github.com/antialias",
-                "username": "antialias"
-            },
-            {
-                "network": "LinkedIn",
-                "url": "https://www.linkedin.com/in/thomashallock",
-                "username": "thomashallock"
-            }
-        ],
-        "summary": "Seeking opportunities to build excellent web-based applications with the best available technology.",
-        "website": "http://thomashallock.com/"
+  "basics": {
+    "name": "Thomas Hallock",
+    "label": "",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "",
+    "summary": "Real Estate",
+    "location": {
+      "address": "",
+      "postalCode": "[antialias]",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
-    "education": [
-        {
-            "area": "Undergraduate",
-            "courses": [
-                "Compilers",
-                "Operating Systems",
-                "OOP",
-                "Abstract Data Types",
-                "Digital Logic Design",
-                "Computer Architecture",
-                "Automata Theory",
-                "Neural Networks",
-                "Artificial Intelligence",
-                "Computer Graphics"
-            ],
-            "startDate": "1999-08-01",
-            "endDate": "2004-05-01",
-            "institution": "University of Texas at Austin",
-            "studyType": "Bachelor of Science"
-        }
-    ],
-    "interests": [
-        {
-            "keywords": [
-                "travel",
-                "caving",
-                "hiking",
-                "bicycles"
-            ],
-            "name": "active"
-        },
-        {
-            "keywords": [
-                "single page applications",
-                "backbone",
-                "node",
-                "javascript",
-                "functional",
-                "es6",
-                "functional"
-            ],
-            "name": "technology"
-        }
-    ],
-    "languages": [
-        {
-            "fluency": "Native speaker",
-            "language": "English"
-        }
-    ],
-    "skills": [
-        {
-            "keywords": [
-                "PHP",
-                "JS",
-                "Javascript",
-                "OOP",
-                "functional",
-                "webapp",
-                "couchdb",
-                "REST",
-                "JSON",
-                "SQL",
-                "gulp",
-                "grunt",
-                "webpack",
-                "node",
-                "SOAP",
-                "Groovy",
-                "Grails",
-                "Java",
-                "HTML",
-                "CSS"
-            ],
-            "level": "Master",
-            "name": "Web Development"
-        },
-        {
-            "keywords": [
-                "git",
-                "subversion",
-                "jenkins",
-                "unit tests",
-                "behavior driven development"
-            ],
-            "level": "Professional",
-            "name": "Software Engineering"
-        },
-        {
-            "keywords": [
-                "functional",
-                "OOP",
-                "Javascript",
-                "Java",
-                "Haskell",
-                "Python"
-            ],
-            "name": "Programming"
-        },
-        {
-            "keywords": [
-                "/etc/init.d",
-                "ubuntu",
-                "debian",
-                "redhat",
-                "vagrant",
-                "puppet",
-                "centos",
-                "bash"
-            ],
-            "name": "sysadmin"
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "TEALS",
-            "position": "Volunteer Teacher for AP Computer science",
-            "startDate": "2014-06-01",
-            "summary": "Taught AP computer science at a New York City public high school.",
-            "website": "http://tealsk12.org/"
-        }
-    ],
-    "work": [
-        {
-            "company": "1stdibs.com",
-            "highlights": [
-                "Created and launched MessageCenter, a web email system for communcation and commerce between customers and dealers on 1stdibs.com.",
-                "Mentored front-end team on best practices for building behaviour-driven development-style unit tests",
-                "Organized front-end codebase into view-components self-build with all dependent assets"
-            ],
-            "position": "Sr. Front-end Engineer",
-            "startDate": "2014-02-15",
-            "summary": "Technical front-end lead on a team with 4 front-end developers.",
-            "website": "https://www.1stdibs.com"
-        },
-        {
-            "company": "LearningPod, Inc. (The Washington Post Company)",
-            "endDate": "2013-11-01",
-            "highlights": [
-                "Architected a set of front-end modules to create a rich user experience for educators, students, and developers.",
-                "Built a rich text editor for authoring math content for a new learning management system. Used <code>contenteditable</code> and MathJax on top of a Groovy + Grails stack.",
-                "Created a suite of automated front-end tests using WebDriver and the Grails functional test harness"
-            ],
-            "position": "Sr. Front End Developer",
-            "startDate": "2012-10-01",
-            "website": "http://www.learningpod.com/"
-        },
-        {
-            "company": "Roubini Global Economics",
-            "startDate": "2010-10-01",
-            "endDate": "2012-10-01",
-            "highlights": [
-                "Wrote a forum system from scratch that remains in use at the company.",
-                "Created unit tests for each product brought into production.",
-                "Designed and built multiple internal web-based single-page business applications using ExtJS",
-                "Developed interactive widgets using JavaScript.",
-                "Launched and maintained Economonitor.com using WordPress Multisite and a set of custom plug-ins.",
-                "Release manager for production code pushes. Used Trac, Subversion, and some custom scripts to tie everything together."
-            ],
-            "position": "Sr. Web Application Developer",
-            "website": "http://roubini.com/"
-        },
-        {
-            "company": "The Sellery",
-            "endDate": "2011-06-01",
-            "highlights": [
-                "Developed a web application in PHP to manage eBay sales, inventory, CRM, and invoicing for 400+ consignors.",
-                "Bootstrapped business from single person into a coordinated group of skilled and motivated workers."
-            ],
-            "position": "owner",
-            "startDate": "2004-01-01",
-            "summary": "eBay consignment drop-off store",
-            "website": "http://www.thesellery.com"
-        },
-        {
-            "company": "Black Enterprise Magazine",
-            "endDate": "2010-02-01",
-            "highlights": [
-                "Migrated physical infrastructure to cloud hosting to realize significant cost-savings.",
-                "Administered a WordPress Multisite instance with over 300,000 registered users",
-                "Developed WordPress plug-ins for new user sign-up, StreamSend sync, and consuming Associated Press feeds."
-            ],
-            "position": "Systems designer and programmer",
-            "startDate": "2009-08-01",
-            "website": "http://www.blackenterprise.com/"
-        },
-        {
-            "description": "Worked with multiple clients as a PHP consultant, project manager, and SEO advisor",
-            "endDate": "2010-02-01",
-            "company": "Freelance",
-            "position": "PHP consultant and project manager",
-            "startDate": "2009-04-01"
-        },
-        {
-            "company": "Trilogy Software - Versata - Online Automotive Group",
-            "endDate": "2009-04-01",
-            "highlights": [
-                "Managed domain names for 6000+ OEM websites for all Ford, Jaguar, and Landrover dealerships in North America.",
-                "Configured and managed instances of Jira and Confluence products to manage requirements and support information."
-            ],
-            "position": "Support Manager / Technology Liaison",
-            "startDate": "2007-04-01",
-            "website": "http://www.versata.com/"
-        },
-        {
-            "company": "Medicus Insurance Company",
-            "endDate": "2008-03-01",
-            "position": "Systems Administrator",
-            "startDate": "2007-03-01",
-            "website": "http://www.medicusins.com/"
-        },
-        {
-            "company": "Aspyr Media",
-            "startDate": "2001-06-01",
-            "endDate": "2003-02-01",
-            "position": "Technical support and QA",
-            "website": "http://www.aspyr.com/"
-        },
-        {
-            "company": "UT Austin Physics Department",
-            "description": "programmed answers to algebra questions using a hybrid C / LaTeX system",
-            "endDate": "2001-01-01",
-            "position": "Programmer",
-            "startDate": "2000-01-01",
-            "website": "http://www.ph.utexas.edu/"
-        }
-    ]
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Compass",
+      "position": "Senior Software Engineer II (IC4)",
+      "website": "",
+      "startDate": "2019-05-01",
+      "summary": "Engineering lead for team of 4 on comparative market analysis project, built from scratch a suite of web applications for real estate agents to use to create nice-looking reports that compares their client's property to similar properties. Used React, koa, GraphQL, and Redis and modern patterns for universal rendering, state management and css.  Wrote a web application that all other teams could use for anytime deploys to EKS (kubernetes) as an alternative to the existing monolithic deployment pattern that used cron + ec2.  Built a web application that made it quick and easy for stakeholders to create incidents (on PagerDuty and OpsGenie) for production-level failures in our on-call systems.  GraphQL: Implemented the first production-level GraphQL application in the org and set an example for five other projects that followed in the following months. Advocated for the technology and demonstrated several practical patterns that other teams were able to leverage in the following months in order to bring their applications to production.  Onboarded new ~20 new hires so they could become productive on their first day in the new Seattle office  Reduced logging volume by 2/3rds by finding wasteful instances of logging throughout the organization's codebases. Developed and documented a few novel techniques for detecting wasteful logging.  Ensured that all front-end applications across the org were correctly integrated with DataDog's custom metrics, logging, and APM services.",
+      "highlights": []
+    },
+    {
+      "company": "Providence Health & Services",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "2017-01-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2019-01-01"
+    },
+    {
+      "company": "1stdibs.com",
+      "position": "Sr. Front End Engineer",
+      "website": "",
+      "startDate": "2014-01-01",
+      "summary": "Created and launched MessageCenter, a web email system for communication and commerce between customers and dealers on 1stdibs.com. Introduced development team to best practices for source control with git. Delivered multiple best-practices themed presentations to development team covering source control and software testing strategies. Wrote tools for organizing front-end codebase into self-contained view components.",
+      "highlights": [],
+      "endDate": "2016-01-01"
+    },
+    {
+      "company": "Kaplan",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "2012-01-01",
+      "summary": "Front-end engineer for Learningpod.com",
+      "highlights": [],
+      "endDate": "2013-01-01"
+    },
+    {
+      "company": "Roubini Global Economics",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "2010-01-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2012-01-01"
+    },
+    {
+      "company": "Black Enterprise",
+      "position": "Web Developer / Administrator",
+      "website": "",
+      "startDate": "2009-07-01",
+      "summary": "Web systems administrator and developer",
+      "highlights": [],
+      "endDate": "2010-02-01"
+    },
+    {
+      "company": "FordDirect",
+      "position": "Support Team Manager",
+      "website": "",
+      "startDate": "2007-10-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2009-05-01"
+    },
+    {
+      "company": "Versata",
+      "position": "Support Manager - Automotive Business Unit",
+      "website": "",
+      "startDate": "2007-10-01",
+      "summary": "Manged a call center that provided support for a large consumer facing web application. Created documentation for new software releases. Administrated a domain name server for over 6000 domain names. Trained call center as part of each release cycle.",
+      "highlights": [],
+      "endDate": "2008-12-01"
+    },
+    {
+      "company": "Medicus Insurance Company",
+      "position": "Systems Administrator",
+      "website": "",
+      "startDate": "2007-03-01",
+      "summary": "Designed, built, and maintained IT infrastructure for a group of 25 users. Mostly Mac OS X Server-based. Implemented LDAP-based authentication across all services, managed e-mail migrations across three different platforms over a period of one year.",
+      "highlights": [],
+      "endDate": "2008-03-01"
+    },
+    {
+      "company": "The Sellery",
+      "position": "Owner",
+      "website": "",
+      "startDate": "2004-01-01",
+      "summary": "Architected an eBay consignment business model from scratch, wrote software that manges inventory, consignors, employees, and finances. Launched advertising campaigns, recruited workers, integrated systems, and most importantly, maintained profitability, all while working full-time as an IT consultant for other companies.",
+      "highlights": [],
+      "endDate": "2011-01-01"
+    },
+    {
+      "company": "Aspyr Media",
+      "position": "Customer Support Representative",
+      "website": "",
+      "startDate": "2001-01-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2003-01-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "area": "",
+      "studyType": "B.S.",
+      "startDate": "1998-12-31",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2002-12-31"
+    },
+    {
+      "institution": "LBJ High School",
+      "area": "",
+      "studyType": "",
+      "startDate": "1997-12-31",
+      "gpa": "",
+      "courses": [],
+      "endDate": "1998-12-31"
+    },
+    {
+      "institution": "Libral Arts Academy at Johnston High School",
+      "area": "",
+      "studyType": "",
+      "startDate": "1993-12-31",
+      "gpa": "",
+      "courses": [],
+      "endDate": "1997-12-31"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Beautiful Code | 1stdibs Tech",
+      "publisher": "",
+      "releaseDate": "Invalid date",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Application Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Haskell",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CouchDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Documentation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Intergalactic Tourism",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Grails",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Groovy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Subversion",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XHTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML 5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AJAX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cycling",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Integration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OS X",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ski",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Knockout",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Documentation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Objective-C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Redis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Front-end Development",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native or bilingual proficiency"
+    }
+  ],
+  "references": [
+    {
+      "name": "Chi Ho - Compass",
+      "reference": "Thomas is passionate about technologies.  He is a go to person for many questions about GraphQL, React, or any of the various tools that our team uses (e.g., Datadog, PagerDuty, etc.).  Thomas is a great teacher and a helpful colleague.  He goes above and beyond to not only answer our questions, but also to get us interested in the subject technology.  And he helped our very young team with big and small tasks, ranging from onboarding new team members to setting up a deployment pipeline when there was no clear process, to giving an important product a good start.  I am personally very impressed with his knowledge, as well as thankful for his contribution to the team's early success."
+    },
+    {
+      "name": "Allen Velasquez - Noble Systems",
+      "reference": "Thomas was a smart, diligent and affable customer support rep when I worked at him at Aspyr. Despite being (in my opinion) overqualified for the job he still committed and gave every aspect its' due diligence and was a pleasure to work with."
+    },
+    {
+      "name": "Charlie Palermo - comfort air solutions",
+      "reference": "I have used Thomas to sell a variety of items in the past four years. He has proven marketing skills that get results. I will continue to consign my items over to Thomas and I highly recommend him to anyone wishing to get the best price for their merchandise.    I would also like to add that Thomas is a man  with high moral standards and a strong work ethic.      Charlie Palermo   Round Rock, Tx"
+    },
+    {
+      "name": "Steven McPike - Broadway Technology",
+      "reference": "As the team's Support Manager, Thomas was a key liaison between our end-users, call center agents, developers, and project sponsor.  He had responsibility for a wide variety of tasks, ranging from onsite training to running triage sessions with our operations team.  He excelled in this diverse role due to a strong blend of communication skills, technical aptitude, attention to detail, and work ethic.  Of particular note, Thomas consistently sought to identify opportunities for improving team processes and helping drive customer success."
+    },
+    {
+      "name": "Pratibha Hottigimath - Pacific Gas & Electric / PG&E",
+      "reference": "Thomas has a strong understanding of technology and can gauge project needs effectively. It is easy to see his deep commitment in everything he does.   Thomas maintains a good feel of customer needs and proposes enhancements to address them.  Thomas is certainly a great contributor and would be an asset to any team."
+    },
+    {
+      "name": "Sonny Bihl - OnlineMedEd",
+      "reference": "I've worked with Thomas for well over a year. During that time, Thomas has been the technical expert and consumate professional. He is a master of technology, while remaining accessible and helpful whenever needed. Thomas has always been thorough and patient while training my teams in new features and updates. The success of my team has been largely due to the efforts and helpfulness of Thomas."
+    }
+  ]
 }
