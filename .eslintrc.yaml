@@ -1,0 +1,20 @@
+parserOptions:
+  ecmaVersion: 9
+  sourceType: module
+env:
+  node: true
+extends:
+  - "plugin:json/recommended"
+  - "./spellcheck.eslint.config.js"
+overrides:
+  - files:
+    - "*.resume.yaml.js"
+    plugins:
+    - spellcheck
+  - files:
+    - "*.yaml"
+    plugins:
+    - yaml
+ignorePatterns:
+  - package-lock.json
+  - '!.eslintrc.yaml'
