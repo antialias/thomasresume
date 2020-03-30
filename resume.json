@@ -1,18 +1,21 @@
 {
+  "meta": {
+    "theme": "orbit-original"
+  },
   "basics": {
     "name": "Thomas Hallock",
     "label": "",
     "picture": "",
-    "email": "",
-    "phone": "",
-    "website": "",
-    "summary": "Real Estate",
+    "email": "hallock@gmail.com",
+    "phone": "+1.512.775.6652",
+    "website": "http://thomashallock.com/",
+    "summary": "Software Engineer since before the web",
     "location": {
       "address": "",
-      "postalCode": "[antialias]",
-      "city": "",
-      "countryCode": "",
-      "region": ""
+      "postalCode": "98122",
+      "city": "Seattle, WA",
+      "countryCode": "USA",
+      "region": "Washington"
     },
     "profiles": []
   },
@@ -30,7 +33,7 @@
       "position": "Senior Software Engineer",
       "website": "",
       "startDate": "2017-01-01",
-      "summary": "",
+      "summary": "Designed and implemented web application for uploading correctly sized and oriented insurance cards to EPIC scheduling system. Internationalized several projects using plugins and middleware based on i18n. Integrated reature flagging vai launch darkly into several products",
       "highlights": [],
       "endDate": "2019-01-01"
     },
@@ -92,10 +95,10 @@
       "company": "Medicus Insurance Company",
       "position": "Systems Administrator",
       "website": "",
-      "startDate": "2007-03-01",
+      "startDate": "2007-01-01",
       "summary": "Designed, built, and maintained IT infrastructure for a group of 25 users. Mostly Mac OS X Server-based. Implemented LDAP-based authentication across all services, managed e-mail migrations across three different platforms over a period of one year.",
       "highlights": [],
-      "endDate": "2008-03-01"
+      "endDate": "2008-01-01"
     },
     {
       "company": "The Sellery",
@@ -108,8 +111,7 @@
     },
     {
       "company": "Aspyr Media",
-      "position": "Customer Support Representative",
-      "website": "",
+      "website": "https://www.aspyr.com/",
       "startDate": "2001-01-01",
       "summary": "",
       "highlights": [],
@@ -118,268 +120,180 @@
   ],
   "education": [
     {
-      "institution": "",
-      "area": "",
+      "institution": "Universirty of Texas at Austin",
+      "area": "Compter Science",
       "studyType": "B.S.",
-      "startDate": "1998-12-31",
+      "startDate": "1998-01-01",
       "gpa": "",
       "courses": [],
-      "endDate": "2002-12-31"
-    },
-    {
-      "institution": "LBJ High School",
-      "area": "",
-      "studyType": "",
-      "startDate": "1997-12-31",
-      "gpa": "",
-      "courses": [],
-      "endDate": "1998-12-31"
-    },
-    {
-      "institution": "Libral Arts Academy at Johnston High School",
-      "area": "",
-      "studyType": "",
-      "startDate": "1993-12-31",
-      "gpa": "",
-      "courses": [],
-      "endDate": "1997-12-31"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Beautiful Code | 1stdibs Tech",
-      "publisher": "",
-      "releaseDate": "Invalid date",
-      "website": "",
-      "summary": ""
+      "endDate": "2002-01-01"
     }
   ],
   "skills": [
     {
       "name": "Web Applications",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "JavaScript",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "Git",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "Node.js",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "Application Development",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "Haskell",
-      "level": "",
+      "level": "4",
       "keywords": []
     },
     {
       "name": "MySQL",
-      "level": "",
+      "level": "6",
       "keywords": []
     },
     {
       "name": "CouchDB",
-      "level": "",
+      "level": "4",
       "keywords": []
     },
     {
       "name": "Software Documentation",
-      "level": "",
+      "level": "6",
       "keywords": []
     },
     {
       "name": "Intergalactic Tourism",
-      "level": "",
+      "level": "0",
       "keywords": []
     },
     {
       "name": "Grails",
-      "level": "",
+      "level": "2",
       "keywords": []
     },
     {
       "name": "Groovy",
-      "level": "",
+      "level": "2",
       "keywords": []
     },
     {
       "name": "MongoDB",
-      "level": "",
+      "level": "3",
       "keywords": []
     },
     {
       "name": "Bash",
-      "level": "",
+      "level": "7",
       "keywords": []
     },
     {
       "name": "XML",
-      "level": "",
+      "level": "3",
       "keywords": []
     },
     {
       "name": "Linux",
-      "level": "",
+      "level": "3",
       "keywords": []
     },
     {
       "name": "PHP",
-      "level": "",
+      "level": "8",
       "keywords": []
     },
     {
       "name": "Python",
-      "level": "",
+      "level": "4",
       "keywords": []
     },
     {
       "name": "Web Development",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "Software Development",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "Subversion",
-      "level": "",
+      "level": "6",
       "keywords": []
     },
     {
       "name": "jQuery",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "SQL",
-      "level": "",
+      "level": "7",
       "keywords": []
     },
     {
       "name": "HTML",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "CSS",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "JSON",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "Apache",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "XHTML",
-      "level": "",
+      "level": "8",
       "keywords": []
     },
     {
       "name": "REST",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "HTML 5",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "AJAX",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cycling",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Integration",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "OS X",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web Services",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Ski",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Knockout",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Documentation",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Objective-C",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "Java",
-      "level": "",
+      "level": "6",
       "keywords": []
     },
     {
       "name": "Kubernetes",
-      "level": "",
+      "level": "6",
       "keywords": []
     },
     {
       "name": "React.js",
-      "level": "",
+      "level": "10",
       "keywords": []
     },
     {
       "name": "Redis",
-      "level": "",
+      "level": "7",
       "keywords": []
     },
     {
       "name": "Front-end Development",
-      "level": "",
+      "level": "10",
       "keywords": []
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native or bilingual proficiency"
     }
   ],
   "references": [

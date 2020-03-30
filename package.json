@@ -4,8 +4,11 @@
   "description": "",
   "main": "rasterize.js",
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "phantomjs scripts/build.js"
+    "spellcheck": "rollup resume.yaml --plugin @rollup/plugin-yaml | eslint --fix-dry-run --stdin --stdin-filename=resume.yaml.js",
+    "lint": "eslint . --ext js --ext json --ext yaml",
+    "test": "npm run spellcheck && npm run lint",
+    "export": "resume export",
+    "prepare": "phantomjs scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,13 @@
   },
   "homepage": "https://github.com/antialias/thomasresume#readme",
   "dependencies": {
-    "phantomjs-prebuilt": "^2.1.16"
+    "@rollup/plugin-yaml": "^2.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-spellcheck": "0.0.14",
+    "eslint-plugin-yaml": "^0.1.3",
+    "jsonresume-theme-orbit-original": "^1.0.3",
+    "phantomjs-prebuilt": "^2.1.16",
+    "resume-cli": "^1.2.7",
+    "rollup": "^2.3.1"
   }
 }
