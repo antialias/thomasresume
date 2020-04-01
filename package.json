@@ -7,8 +7,7 @@
     "spellcheck": "rollup resume.yaml --plugin @rollup/plugin-yaml | eslint --fix-dry-run --stdin --stdin-filename=resume.yaml.js",
     "lint": "eslint . --ext js --ext json --ext yaml",
     "test": "npm run spellcheck && npm run lint",
-    "export": "resume export",
-    "prepare": "phantomjs scripts/build.js"
+    "export": "resume export"
   },
   "repository": {
     "type": "git",
@@ -21,13 +20,29 @@
   },
   "homepage": "https://github.com/antialias/thomasresume#readme",
   "dependencies": {
+    "@rollup/plugin-json": "^4.0.2",
     "@rollup/plugin-yaml": "^2.1.0",
+    "eslint-plugin-json": "^2.1.1",
+    "jsonresume-theme-boilerplate": "^0.1.2",
+    "jsonresume-theme-eloquent": "^4.1.0",
+    "jsonresume-theme-eternal": "0.0.33",
+    "jsonresume-theme-even": "^0.3.0",
+    "jsonresume-theme-kendall": "^0.1.19",
+    "jsonresume-theme-onepage": "0.0.3",
+    "jsonresume-theme-orbit": "^1.0.3",
+    "jsonresume-theme-orbit-original": "^1.0.3",
+    "jsonresume-theme-paper": "^0.3.5",
+    "jsonresume-theme-print": "^0.1.9",
+    "jsonresume-theme-slick": "^0.1.16",
+    "jsonresume-theme-spartan-extended": "^0.4.1",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "resume-cli": "^1.2.7",
+    "rollup": "^2.3.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-plugin-spellcheck": "0.0.14",
-    "eslint-plugin-yaml": "^0.1.3",
-    "jsonresume-theme-orbit-original": "^1.0.3",
-    "phantomjs-prebuilt": "^2.1.16",
-    "resume-cli": "^1.2.7",
-    "rollup": "^2.3.1"
+    "eslint-plugin-yaml": "^0.1.3"
   }
 }

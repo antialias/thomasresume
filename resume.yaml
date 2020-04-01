@@ -2,7 +2,7 @@
 meta:
   theme: orbit-original
 basics:
-  name: Thomas Hallock
+  name: Thomas Ross Hallock
   label: ''
   picture: ''
   email: hallock@gmail.com
@@ -27,7 +27,7 @@ basics:
 work:
 - company: Compass
   position: Senior Software Engineer II (IC4)
-  website: ''
+  website: 'https://compass.com/'
   startDate: '2019-05-01'
   summary: 'Engineering lead for team of 4 on comparative market analysis project,
     built from scratch a suite of web applications for real estate agents to use to
@@ -83,7 +83,10 @@ work:
   website: ''
   startDate: '2010-01-01'
   summary: ''
-  highlights: []
+  highlights :
+  - Launched and maintained Economonitor.com
+  - Designed internal single-page business applications using ExtJS
+  - Wrote a forum system from scratch that remains in use at the company
   endDate: '2012-01-01'
 - company: Black Enterprise
   position: Web Developer / Administrator
@@ -123,11 +126,11 @@ work:
   position: Owner
   website: ''
   startDate: '2004-01-01'
-  summary: Architected an eBay consignment business model from scratch, wrote software
-    that managed inventory, consignors, employees, and finances. Launched advertising
-    campaigns, recruited workers, integrated systems, and most importantly, maintained
-    profitability, all while working full-time as an IT consultant for other companies.
-  highlights: []
+  summary: Sole proprieter for business that employed 3-7 full-time contractors that sold items on eBay on consignment.
+  highlights: 
+  - Developed a web application in PHP to manage eBay sales, inventory, CRM, and invoicing for 400+ consignors.
+  - Bootstrapped business from single person into a coordinated group of skilled and motivated workers,
+  - Launched advertising campaigns, recruited workers, integrated many systems,
   endDate: '2011-01-01'
 - company: Aspyr Media
   website: https://www.aspyr.com/
