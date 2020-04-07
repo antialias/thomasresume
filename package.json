@@ -36,7 +36,7 @@
     "jsonresume-theme-slick": "^0.1.16",
     "jsonresume-theme-spartan-extended": "^0.4.1",
     "jsonresume-theme-stackoverflow": "^1.4.0",
-    "resume-cli": "^1.2.7",
+    "resumed-cli": "^2.0.2",
     "rollup": "^2.3.1",
     "yamljs": "^0.3.0"
   },
